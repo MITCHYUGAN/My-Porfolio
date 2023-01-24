@@ -1,0 +1,37 @@
+:root{
+    --green: #1F525B;
+}
+
+.projectsSection{
+    width: 100%;
+    min-height: 200vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectHeadingText{
+    text-align: left;
+    align-self: flex-start;
+}
+
+.projectsWrapper{
+    margin-top: 200px;  
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsImageWrapper{
+    width: 300px;
+    height: 403px;
+    border: 1px solid #1F525B;
+    border-radius: 224px;
+}

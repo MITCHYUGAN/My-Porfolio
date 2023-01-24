@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+:root{
+    --green: #1F525B;
+}
+
+.landingPage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 200px;
+    margin-bottom: 100px;
+}
+
+.headingText{
+    font-size: 80px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.headingText span{
+    font-weight: 500;
+    color: var(--green);
+}
+
+.paragraphText{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 18px;
+    font-weight: 300;
+}
+
+.landPageContents{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 79px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.landPageContents_skills_Bio{
+    width: min(600px);
+    display: flex;
+    flex-direction: column;
+    height: 492px;
+    justify-content: center;
+    gap: 90px;
+}
+
+.bioContainer p{
+    font-size: 25px;
+    width: 325px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    font-weight: 400;
+}
+
+.bioContainer button{
+    font-size: 15px;
+    background: none;
+    border: 1px solid var(--green);
+    padding: 11px 28px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+}
+
+.skills h4{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.skillsButtons{
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skillsButtons button{
+    padding: 15px 30px;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 4px -4px #1F525B;
+    font-size: 23px;
+    color: var(--green);
+}
+
+.imageWrapper{
+    width: min(80%, 463px);
+}
+
+.image{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================ MEDIA QUERY AND RESPONSIVENESS STARTS HERE ================================================================================== */
+
+@media (max-width: 800px) {
+    .landPageContents{
+       flex-direction: column-reverse;
+    }
+
+    .headingText{
+        font-size: 50px;
+    }
+
+    .paragraphText{
+        font-size: 20px;
+        margin-top: 9px;
+    }
+
+    .landPageContents_skills_Bio{
+        width: min(600px, 90%);
+        margin-bottom: 50px;
+    }
+}

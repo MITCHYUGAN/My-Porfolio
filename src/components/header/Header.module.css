@@ -1,0 +1,45 @@
+:root{
+    --green: #1F525B;
+    --color : rgb(40, 138, 165);
+}
+
+.headerWrapper{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+    box-shadow: 0 10px 100px rgba(0,0,0,.1);
+    z-index: 99999;
+}
+
+.Logo{
+    width: 40px;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li a{
+    color: black;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.nav ul li a:hover{
+    color: var(--color);
+}
+
+.headerButtons{
+    display: flex;
+    gap: 20px;
+}
+
+.contactButton{
+
+}

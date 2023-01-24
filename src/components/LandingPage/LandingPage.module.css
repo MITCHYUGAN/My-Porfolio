@@ -1,0 +1,79 @@
+body{
+    position: relative;
+}
+
+:root{
+    --color : rgb(40, 138, 165);
+}
+
+.landingPage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: red; */
+    /* background:linear-gradient(), ; */
+    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./Img/background.svg);
+}
+
+.landingContents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    max-width: 1250px;
+    padding: 0 20px;
+    justify-content: center;
+    /* background-color: pink; */
+    height: 60vh;
+}
+
+.landingHeading{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-align: center;
+    /* color: var(--color); */
+    font-weight: 500;
+}
+
+.landingParagraph{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: var(--color)
+}
+
+.arrowdown{
+  cursor: pointer;
+}
+
+
+
+.socials{
+    position: fixed;;
+    background: #fff;
+    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
+    left: 0;
+    bottom: 0;
+}
+
+.social{
+    width: 40px;
+}
+
+a{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    transition: background .3s;
+    border-radius: 5px;
+}
+
+.social a img{
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+}
+
