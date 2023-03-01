@@ -10,7 +10,7 @@ const landingParagraph = LandingCss.landingParagraph
 const socials = LandingCss.socials
 const social = LandingCss.social
 const arrowdown = LandingCss.arrowdown
-const svg = LandingCss.svg
+// const svg = LandingCss.svg
 
 const name = "{ Hi 👋, I'm Mitchyugan }"
 const text = "<> I'm a Frontend developer </>"

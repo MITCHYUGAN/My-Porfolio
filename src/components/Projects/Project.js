@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Projects } from '../Data/ProjectsData'
 
 import ProjectCss from './Project.module.css'
@@ -30,10 +31,10 @@ const Project = () =>{
                                     <p>{description}</p>
                                 </div>
                                 <div className={projectBtn}>
-                                    <a href={link} target="_blank">
+                                    <a href={link} target="_blank" rel="noreferrer">
                                         <button className='button'>Live</button>
                                     </a>
-                                    <a href="" target='_blank'>
+                                    <a href="" target='_blank' rel="noreferrer">
                                         <button>Repo</button>
                                     </a>
                                 </div>

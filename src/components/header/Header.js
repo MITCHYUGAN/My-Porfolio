@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import logo from './Img/logo.svg'
 import HeaderCss from './Header.module.css'
 
@@ -9,8 +9,8 @@ const nav = HeaderCss.nav
 const headerButtons = HeaderCss.headerButtons
 
 const mobileHeader = HeaderCss.mobileHeader
-const mobileNav = HeaderCss.mobileNav
-const closeNavBtn = HeaderCss.closeNavBtn
+// const mobileNav = HeaderCss.mobileNav
+// const closeNavBtn = HeaderCss.closeNavBtn
 
 
 const about = "<> About </>"
@@ -19,7 +19,7 @@ const socials = "<> Socials </>"
 
 const Header = () =>{
 
-    const [mobilenav, setMobileNav] = useState(false)
+    // const [mobilenav, setMobileNav] = useState(false)
     
     return(
         <div className={headerWrapper}>
@@ -40,7 +40,7 @@ const Header = () =>{
 
              <header className={mobileHeader}>
                 <img src={logo} className={Logo} alt="My Logo"/>
-                    {mobilenav && 
+                    {/* {mobilenav && 
                          <nav className={mobileNav}>
                             <button className={closeNavBtn}>X</button>
                             <ul>
@@ -53,7 +53,7 @@ const Header = () =>{
                                 <button className='button'>Contact</button>
                             </div>
                         </nav>
-                    }
+                    } */}
                     
              </header>
         </div>
