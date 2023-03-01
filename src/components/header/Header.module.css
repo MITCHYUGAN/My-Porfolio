@@ -15,6 +15,13 @@
     z-index: 99999;
 }
 
+.header{
+    width: min(85%, 1000px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .Logo{
     width: 40px;
 }
@@ -40,6 +47,51 @@
     gap: 20px;
 }
 
-.contactButton{
 
+
+.mobileHeader{
+    display: none;
+    align-items: center;
+}
+
+.mobileNav{
+    width: 250px;
+    position: fixed;
+    background-color: white;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 0 0 100000px rgba(0, 0, 0, 0.353);
+    gap: 30px;
+}
+
+.mobileNav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.closeNavBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+
+/* ================================================== MEDIA QUERY AND RESPONSIVENESS ================================================================= */
+
+@media (max-width: 750px) {
+    .mobileHeader{
+        display: flex;
+    }
+
+    .header{
+        display: none;
+    }
 }
