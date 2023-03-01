@@ -8,13 +8,12 @@ body{
 
 .landingPage{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
-    /* background:linear-gradient(), ; */
+    overflow: hidden;
     background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./Img/background.svg);
 }
 
@@ -36,6 +35,18 @@ body{
     text-align: center;
     /* color: var(--color); */
     font-weight: 500;
+    line-height: 80px;
+    display: block;
+    z-index: 2;
+}
+
+.Htext{
+    display: none;
+    z-index: 2;
+    font-size: 3.5rem;
+    font-weight: 500;
+    line-height: 80px;
+    text-align: center;
 }
 
 .landingParagraph{
@@ -63,7 +74,7 @@ body{
     width: 40px;
 }
 
-a{
+.social a{
     width: 100%;
     display: block;
     padding: 5px;
@@ -77,3 +88,29 @@ a{
     padding: 5px;
 }
 
+svg{
+    position: absolute;
+    width: 70%;
+    z-index: 1;
+}
+
+
+
+/* ========================================== MEDIA QUERY AND RESPONSIVENESS ================================================== */
+
+
+@media (max-width: 875px) {
+    .landingHeading{
+        display: none;
+    }
+    .Htext{
+        display: block;
+    }
+}
+
+@media (max-width: 530px) {
+    .Htext{
+        font-size: 3rem;
+        line-height: 60px;
+    }
+}

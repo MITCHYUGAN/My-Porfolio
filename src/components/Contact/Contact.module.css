@@ -1,0 +1,61 @@
+:root{
+    --color : rgb(40, 138, 165);
+}
+
+
+.contactWrapper{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.contactheader h1{
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.contactheader p{
+    font-size: 23px;
+    text-align: center;
+    width: 70%;
+    line-height: 30px;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.forms input{
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 1px solid var(--color);
+}
+
+.forms textarea{
+    border-radius: 50px;
+    padding: 20px 20px;
+    border: 1px solid var(--color);
+    height: 30vh;
+    max-width: 100%;
+}
+
+.submitformBtn{
+    margin-top: 20px;
+    background-color: var(--color);
+}

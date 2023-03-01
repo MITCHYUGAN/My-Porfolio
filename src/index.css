@@ -22,6 +22,10 @@ body {
   
   button{
   font-family: 'Josefin Sans', sans-serif;
-    background: none;
-    cursor: pointer;
+  background: none;
+  cursor: pointer;
+}
+
+input, textarea{
+  font-family: 'Josefin Sans', sans-serif;
 }
