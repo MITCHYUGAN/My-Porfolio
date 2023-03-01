@@ -1,9 +1,9 @@
 export const Projects = [
     {
         img: require('../Projects/img/img1.png'),
-        title: "Apple Website Clone",
-        description: "Dopefolio is a successful Open-Source project that I created which have been featured on some of the biggest tech sites like CSS-Tricks, Hostinger, etc & used by thousands of developers globally",
-        link: "https://mytchapplewebsiteclone.netlify.app/index.html"
+        title: "Opspad Official Website",
+        description: "",
+        link: "https://opspad.dev/"
     },
     {
         img: require('../Projects/img/img2.png'),
