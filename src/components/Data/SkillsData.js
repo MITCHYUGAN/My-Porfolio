@@ -6,13 +6,19 @@ export const Skills = [
         skills: "CSS"
     },
     {
-        skills: "JavaScript"
-    },
-    {
         skills: "Grid"
     },
     {
         skills: "FlexBox"
+    },
+    {
+        skills: "Responsive Design"
+    },
+    {
+        skills: "JavaScript"
+    },
+    {
+        skills: "JQuery"
     },
     {
         skills: "React"
@@ -25,8 +31,5 @@ export const Skills = [
     },
     {
         skills: "Terminal"
-    },
-    {
-        skills: "Responsive Design"
     },
 ]

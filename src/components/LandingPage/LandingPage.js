@@ -36,12 +36,12 @@ const LandingPage = () =>{
                     </a>
                 </div>
                 <div className={social}>
-                    <a href="https://twitter.com/rammcodes"  rel="noreferrer" target="_blank">
+                    <a href="https://twitter.com/Mitchyugan"  rel="noreferrer" target="_blank">
                     <img src="https://d33wubrfki0l68.cloudfront.net/ba3ef9fd9d500c55ba265adae6087ba71e05f5d9/d0067/assets/svg/twitter-dark.svg" alt="RammCodes Twitter Profile" />
                     </a>
                 </div>
                 <div className={social}>
-                    <a href="https://github.com/rammcodes"  rel="noreferrer" target="_blank">
+                    <a href="https://github.com/MITCHYUGAN/"  rel="noreferrer" target="_blank">
                     <img src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg" alt="RammCodes Github Profile" />
                     </a>
                 </div>
