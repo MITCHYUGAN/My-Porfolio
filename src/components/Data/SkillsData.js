@@ -33,3 +33,4 @@ export const Skills = [
         skills: "Terminal"
     },
 ]
+

@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import React from 'react'
 import logo from './Img/logo.svg'
 import HeaderCss from './Header.module.css'
 
@@ -7,6 +8,8 @@ const header = HeaderCss.header
 const Logo = HeaderCss.Logo
 const nav = HeaderCss.nav
 const headerButtons = HeaderCss.headerButtons
+const resumeBtn = HeaderCss.resumeBtn
+
 
 const mobileHeader = HeaderCss.mobileHeader
 // const mobileNav = HeaderCss.mobileNav
@@ -14,8 +17,7 @@ const mobileHeader = HeaderCss.mobileHeader
 
 
 const about = "<> About </>"
-const project = "<> Project </>"
-const socials = "<> Socials </>"
+const project = "<> Projects </>"
 
 const Header = () =>{
 
@@ -24,17 +26,19 @@ const Header = () =>{
     return(
         <div className={headerWrapper}>
             {<header className={header}>
-                <img src={logo} className={Logo} alt="My Logo"/>
+                <a href='/'>
+                    <img src={logo} className={Logo} alt="My Logo"/>
+                </a>
                 <nav className={nav}>
                     <ul>
-                        <li><a href="#about">{about}</a></li>
-                        <li><a href="#projects">{project}</a></li>
-                        <li><a href="#socials">{socials}</a></li>
+                        <li><a href="./#about">{about}</a></li>
+                        <li><a href="./#projects">{project}</a></li>
                     </ul>
                 </nav>
                 <div className={headerButtons}>
-                    <button>Resume</button>
-                    <button className='button'>Contact</button>
+                    <a href="https://drive.google.com/file/d/1YDdiyw1gj3UGiRoIg3U92NVtBH48BHfU/view?usp=sharing" target='_blank' rel="noopener noreferrer" className={resumeBtn}>Resume</a>
+                    <a href="./#contact" className='button'>Contact</a>
+                    {/* <button className='button'></button> */}
                 </div>
              </header>}
 

@@ -41,14 +41,13 @@
 }
 
 .projectsImageWrapper{
-    width: 700px;
+    width: min(700px, 100%);
     rotate: -20deg;
     transition: 0.5s;
 }
 
 .projectsImageWrapper:hover{
     rotate: 0deg;
-
 }
 
 .projectsImageWrapper img{
@@ -71,4 +70,47 @@
 .viewallBtn{
     font-size: 25px;
     margin-top: 100px;
+}
+
+
+/* =========================================================================== Media Query starts here ========================================================================= */
+
+
+@media (max-width: 830px) {
+    .projects{
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+    }
+
+    .projectsImageWrapper{
+        /* width: 700px; */
+        rotate: 0deg;
+    }
+
+    .projectsWrapper{
+        margin-top: 200px;  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 150px;
+    }
+}
+
+@media (max-width: 400px) {
+    .projectHeadingText{
+        text-align: center;
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .projectsWrapper{
+        margin-top: 200px;  
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
 }

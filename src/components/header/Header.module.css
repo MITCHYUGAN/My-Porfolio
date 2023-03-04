@@ -45,8 +45,16 @@
 .headerButtons{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
+.resumeBtn{
+    color: black;
+}
+
+.resumeBtn:hover{
+    color: var(--color);
+}
 
 
 .mobileHeader{

@@ -68,3 +68,38 @@
     font-size: 17px;
     border-radius: 3px;
 }
+
+
+/* ======================================================================= Media Query starts here =============================================================== */
+
+@media (max-width: 700px) {
+    .about{
+        margin-bottom: 100px;
+    }
+    .aboutContents{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .abouttext{
+        width: 100%;
+    }
+
+    .skills{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .aboutHeading{
+        font-weight: 500;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 265px) {
+    .aboutHeading{
+        font-weight: 500;
+        font-size: 26px;
+    }
+}

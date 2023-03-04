@@ -1,3 +1,4 @@
+import React from 'react'
 import AboutCss from './About.module.css'
 import { Skills } from '../Data/SkillsData'
 
@@ -14,7 +15,7 @@ const aboutheading  = "<> About Me </>"
 
 const About = () =>{
     return(
-        <div className={about}>
+        <div className={about} id="about">
             <h1 className={aboutHeading}>{aboutheading}</h1>
             <div className={aboutContents}>
                 <div className={abouttext}>

@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={contactWrapper}>
+    <div className={contactWrapper} >
       <div className={contactheader}>
         <h1>{contactHeadingText}</h1>
         <p>
@@ -52,17 +52,8 @@ const Contact = () => {
           Don't hesitate! Drop me a line and I'll get back to you ASAP!
         </p>
       </div>
-      {/* <form ref={form} className={forms} onSubmit={sendEmail}>
-        <label>Name</label>
-        <input placeholder="Enter Your Name" type="text" name="user_name" />
-        <label>Email</label>
-        <input placeholder="Enter Your Email" type="email" name="user_email" />
-        <label>Message</label>
-        <textarea placeholder="Enter Your Message" name="message" />
-        <input type="submit" className={submitBtnClasses} value="Send" />
-      </form> */}
 
-      <form ref={form} className={forms} onSubmit={sendEmail}>
+      <form ref={form} className={forms} onSubmit={sendEmail} id="contact">
         <label>Name</label>
         <input placeholder="Enter Your Name" type="text" name="user_name"  
          value={fullName}
@@ -85,7 +76,6 @@ const Contact = () => {
          } else{
            setModal(true)
          }
-        //  console.log(fullName);
           setTimeout(() => {
             setModal(false);
           }, 5000);
@@ -94,6 +84,9 @@ const Contact = () => {
         {
           modal &&  <Modal />
         }
+        <div className="mini-footer">
+          <p>© Copyright 2023. Made by Mitchyugan</p>
+        </div>
     </div>
   );
 };
