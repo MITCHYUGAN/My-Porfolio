@@ -11,7 +11,7 @@ export const Projects = [
         title: "Meta Bnb",
         // description: "Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.",
         description: "Discover our NFT gift cards collection.",
-        link: "https://gratitudestitches.netlify.app/"
+        link: "hhttps://hngtask-metabnbnft.netlify.app/"
     },
     {
         img: require('../Projects/img/img3.png'),
@@ -19,7 +19,13 @@ export const Projects = [
         description: "A clone of apple website"
     },
     {
-        img: require('../Projects/img/img3.png'),
+        img: require('../Projects/img/img4.png'),
+        title: "Apple Website Clone",
+        description: "A clone of apple website",
+        link: "https://gratitudestitches.netlify.app/"
+    },
+    {
+        img: require('../Projects/img/img5.png'),
         title: "Apple Website Clone",
         description: "A clone of apple website",
         link: "https://gratitudestitches.netlify.app/"
