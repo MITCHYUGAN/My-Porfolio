@@ -6,6 +6,9 @@ export const Skills = [
         skills: "CSS"
     },
     {
+        skills: "Scss"
+    },
+    {
         skills: "Grid"
     },
     {

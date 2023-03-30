@@ -33,6 +33,11 @@
     width: 45%;
 }
 
+.spanLinks{
+    cursor: pointer;
+    padding-left: 6px;
+}
+
 .abouttextflex{
     display: flex;
     flex-direction: column;

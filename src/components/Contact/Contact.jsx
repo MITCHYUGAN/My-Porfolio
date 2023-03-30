@@ -71,7 +71,6 @@ const Contact = () => {
         />
         <input type="submit" className={submitBtnClasses} value="Send" onClick={() => {
          if (fullName === "" || email === "" || message === "") {
-          // var validemail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
           alert("Please enter your Name, Email, and Message")
          } else{
            setModal(true)
@@ -85,7 +84,7 @@ const Contact = () => {
           modal &&  <Modal />
         }
         <div className="mini-footer">
-          <p>© Copyright 2023. Made by Mitchyugan</p>
+          <p>Made with <span role="img" aria-label=''>💖</span> by Mitchyugan</p>
         </div>
     </div>
   );

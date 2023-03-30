@@ -1,11 +1,13 @@
 import React from 'react'
 import AboutCss from './About.module.css'
 import { Skills } from '../Data/SkillsData'
+import { Link } from "react-scroll"
 
 const about = AboutCss.about
 const aboutHeading = AboutCss.aboutHeading
 const aboutContents = AboutCss.aboutContents
 const abouttext = AboutCss.abouttext
+const spanLinks = AboutCss.spanLinks
 const abouttextflex = AboutCss.abouttextflex
 const skills = AboutCss.skills
 const skillButtons = AboutCss.skillButtons
@@ -22,13 +24,20 @@ const About = () =>{
                     <h2>Get to know me!</h2>
                     <div className={abouttextflex}>
                         <p>
-                            I'm a <span>Frontend Web Developer</span> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section.
+                            I'm a <span>Frontend Web Developer</span> building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my cool 
+                            <span className={spanLinks}>
+                                <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+                                    Projects
+                                </Link>
+                            </span>
                         </p>
-                        {/* <p>
-                            I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming
-                        </p> */}
                         <p>
-                            I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <span>contact</span> me.
+                            I'm open to <span>Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and tech stack then don't hesitate to 
+                            <span className={spanLinks}>
+                                <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+                                    contact
+                                </Link>
+                            </span> me.
                         </p>
                     </div>
                 </div>

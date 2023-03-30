@@ -41,3 +41,14 @@ button{
   border: none;
   border-radius: 50px;
 }
+
+
+@media (max-width: 730px) {
+    .mobileNav{
+      transform: translateX(-10000000px);
+    }
+
+    .mobileNav__active{
+      transform: translateX(0);
+    }
+}

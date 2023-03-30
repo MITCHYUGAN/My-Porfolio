@@ -25,28 +25,36 @@ body{
     max-width: 1250px;
     padding: 0 20px;
     justify-content: center;
-    /* background-color: pink; */
     height: 60vh;
 }
 
-.landingHeading{
-    font-size: 4rem;
-    letter-spacing: 3px;
-    text-align: center;
-    /* color: var(--color); */
-    font-weight: 500;
-    line-height: 80px;
+.Htext{
     display: block;
     z-index: 2;
-}
-
-.Htext{
-    display: none;
-    z-index: 2;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 500;
     line-height: 80px;
     text-align: center;
+}
+
+.wave{
+    /* animation: wave 0.5s infinite; */
+    display: inline-block;
+    transform-origin: 70% 70%; 
+    animation-name: wave;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite; 
+}
+
+@keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+   100% { transform: rotate( 0.0deg) }
 }
 
 .landingParagraph{
@@ -56,42 +64,27 @@ body{
     color: var(--color)
 }
 
-.arrowdown{
+#arrowdownWrapper{
   cursor: pointer;
+  background-color: white;
+  box-shadow: 0 0 20px 0px rgb(178 216 227);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: arrowdown 0.5s infinite alternate;
+  color: var(--color);
 }
 
-
-
-.socials{
-    position: fixed;;
-    background: #fff;
-    box-shadow: rgba(100,100,111,.2) 0 7px 29px 0;
-    left: 0;
-    bottom: 0;
-}
-
-.social{
-    width: 40px;
-}
-
-.social a{
-    width: 100%;
-    display: block;
-    padding: 5px;
-    transition: background .3s;
-    border-radius: 5px;
-}
-
-.social a img{
-    border-radius: 3px;
-    width: 100%;
-    padding: 5px;
-}
-
-svg{
-    position: absolute;
-    width: 70%;
-    z-index: 1;
+@keyframes arrowdown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
 }
 
 
@@ -100,12 +93,7 @@ svg{
 
 
 @media (max-width: 875px) {
-    .landingHeading{
-        display: none;
-    }
-    .Htext{
-        display: block;
-    }
+
 }
 
 @media (max-width: 530px) {
