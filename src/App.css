@@ -12,7 +12,7 @@ button{
 
 :root{
   --width: 1200px;
-  --backgroundColor : rgb(40, 138, 165);
+  --backgroundColor : rgb(100, 255, 218);
 }
 
 .App{
@@ -34,12 +34,15 @@ button{
 }
 
 .button{
-  background-color: var(--backgroundColor);
   padding: 10px 30px;
-  color: white;
+  color: rgb(100, 255, 218);
   cursor: pointer;
-  border: none;
-  border-radius: 50px;
+  border: 2px solid rgb(100, 255, 218);
+  border-radius: 10px;
+}
+
+.button:hover{
+  color: white;
 }
 
 

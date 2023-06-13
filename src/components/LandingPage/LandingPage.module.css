@@ -3,7 +3,7 @@ body{
 }
 
 :root{
-    --color : rgb(40, 138, 165);
+    --color : rgb(100, 255, 218);
 }
 
 .landingPage{
@@ -14,7 +14,8 @@ body{
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./Img/background.svg);
+    /* background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./Img/background.svg); */
+    color: white;
 }
 
 .landingContents{
@@ -28,12 +29,34 @@ body{
     height: 60vh;
 }
 
+.landingContents div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.landingpageimg{
+    height: 120px;
+    width: 120px;
+    border-radius: 100px;
+    background: url(./Img/landingpageimg1.png);
+    background-size: cover;
+    background-color: var(--color);
+    background-blend-mode: multiply;
+    transition: 0.5s;
+}
+
+.landingpageimg:hover{
+    background-blend-mode: normal;
+}
+
 .Htext{
     display: block;
     z-index: 2;
-    font-size: 4.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    line-height: 80px;
     text-align: center;
 }
 
@@ -57,18 +80,26 @@ body{
    100% { transform: rotate( 0.0deg) }
 }
 
-.landingParagraph{
-    font-size: 20px;
+.landingTitle{
+    font-size: 40px;
     text-align: center;
     margin-top: 10px;
     color: var(--color)
 }
 
+.landingParagraph{
+    font-weight: 300;
+    width: min(700px, 80%);
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+}
+
 #arrowdownWrapper{
   cursor: pointer;
-  background-color: white;
-  box-shadow: 0 0 20px 0px rgb(178 216 227);
-  display: flex;
+  background-color: rgb(30, 30, 30);
+  box-shadow: 0 0 11px 0px rgb(178 216 227);
+  display: none;
   align-items: center;
   justify-content: center;
   width: 50px;
@@ -76,6 +107,7 @@ body{
   border-radius: 50%;
   animation: arrowdown 0.5s infinite alternate;
   color: var(--color);
+  margin-top: 30px;
 }
 
 @keyframes arrowdown {
@@ -90,15 +122,11 @@ body{
 
 
 /* ========================================== MEDIA QUERY AND RESPONSIVENESS ================================================== */
-
-
-@media (max-width: 875px) {
-
-}
-
-@media (max-width: 530px) {
-    .Htext{
-        font-size: 3rem;
-        line-height: 60px;
+@media (max-width: 450px) {
+    .landingTitle{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
+        color: var(--color)
     }
 }

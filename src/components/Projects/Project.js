@@ -5,18 +5,18 @@ import ProjectCss from './Project.module.css'
 
 const projectsSection = ProjectCss.projectsSection
 const projectHeadingText = ProjectCss.projectHeadingText
-const viewallBtn = ProjectCss.viewallBtn
+// const viewallBtn = ProjectCss.viewallBtn
 
-const Projectheadingtext = "<> Projects </>"
+const Projectheadingtext = "{ Projects }"
 
 const Project = () =>{
     return(
         <div className={projectsSection} id="projects">
             <h1 className={projectHeadingText}>{Projectheadingtext}</h1>
             <ProjectDetails />
-            <a href="/allprojects">
+            {/* <a href="/allprojects">
                 <button className={"button " + viewallBtn}>View All</button>
-            </a>
+            </a> */}
         </div>
     )
 }

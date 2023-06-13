@@ -1,5 +1,5 @@
 :root{
-    --color : rgb(40, 138, 165);
+    --color : rgb(100, 255, 218);
 }
 
 
@@ -11,6 +11,7 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    color: white;
 }
 
 .contactheader{
@@ -43,22 +44,31 @@
 .forms input{
     margin-bottom: 20px;
     height: 40px;
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 10px 20px;
     border: 1px solid var(--color);
+    background: none;
 }
 
 .forms textarea{
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 20px 20px;
     border: 1px solid var(--color);
     height: 30vh;
     max-width: 100%;
+    background: none;
+    color: white;
 }
 
-.submitformBtn{
+.contactWrapper form .submitformBtn{
     margin-top: 20px;
-    background-color: var(--color);
+    background: linear-gradient(var(--color), rgb(0, 78, 60));
+    color: white;
+    transition: 0.5s;
+}
+
+.contactWrapper form .submitformBtn:hover{
+    background: linear-gradient(rgb(0, 78, 60), var(--color));
 }
 
 .mini-footer{

@@ -1,5 +1,5 @@
 :root{
-    --color : rgb(40, 138, 165);
+    --color : rgb(100, 255, 218);
 }
 
 .about{
@@ -9,11 +9,13 @@
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    color: white;
 }
 
 .aboutHeading{
     font-weight: 500;
     font-size: 50px;
+    color: white;
 }
 
 .aboutContents{
@@ -68,10 +70,12 @@
 }
 
 .skill{
-    background-color: rgba(40, 138, 165, 0.084);
     padding: 10px 20px;
     font-size: 17px;
-    border-radius: 3px;
+    border-radius: 9px;
+    color: white;
+    border: 2px solid rgb(100 255 218 / 14%);
+    cursor: text;
 }
 
 

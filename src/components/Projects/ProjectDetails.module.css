@@ -5,7 +5,7 @@
 }
 
 :root{
-    --color : rgb(40, 138, 165);
+    --color : rgb(100, 255, 218);
 }
 
 .projectsWrapper{
@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     gap: 200px;
+    color: white;
 }
 
 .projects{
@@ -57,6 +58,7 @@
 
 .projectstext p{
     line-height: 25px;
+    font-weight: 300;
 }
 
 .technologies{
@@ -92,6 +94,12 @@
     margin-bottom: 3px;
 }
 
+@media (max-width: 1150px) {
+    .projectsImageWrapper{
+        width: min(500px, 100%);
+    }
+}
+
 
 @media (max-width: 830px) {
     .projects{
@@ -102,6 +110,7 @@
 
     .projectsImageWrapper{
         rotate: 0deg;
+        width: min(600px, 100%);
     }
 
     .projectsWrapper{

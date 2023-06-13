@@ -18,10 +18,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    /* background-color: black; */
+    background-color: rgb(15, 22, 36);
   }
   
-  button{
+button{
   font-family: 'Josefin Sans', sans-serif;
   background: none;
   cursor: pointer;

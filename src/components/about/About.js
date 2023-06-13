@@ -13,7 +13,7 @@ const skills = AboutCss.skills
 const skillButtons = AboutCss.skillButtons
 const skill = AboutCss.skill
 
-const aboutheading  = "<> About Me </>"
+const aboutheading  = "{ About Me }"
 
 const About = () =>{
     return(

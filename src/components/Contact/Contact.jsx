@@ -9,7 +9,7 @@ const forms = ContactCss.forms;
 const submitformBtn = ContactCss.submitformBtn;
 
 
-const contactHeadingText = "<> Contact Me </>";
+const contactHeadingText = "{ Contact Me }";
 const submitBtnClasses = `button ${submitformBtn}`
 
 const Contact = () => {
