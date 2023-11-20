@@ -27,6 +27,9 @@ export const Skills = [
         skills: "React"
     },
     {
+        skills: "Typescript"
+    },
+    {
         skills: "Git"
     },
     {
