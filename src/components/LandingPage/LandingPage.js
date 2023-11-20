@@ -22,14 +22,6 @@ const LandingPage = () => {
     <div className={landingPage} id="home">
        <div className={landingContents}>
         <div>
-          {/* <img
-            }
-            src={landingpageImg}
-            alt="Landing Img"
-          /> */}
-          <div className={landingpageimg}>
-
-          </div>
           <h1 className={HtextClass}>
             Hi{" "}
             <span className={wave} role="img" aria-label="Wavy hand">
