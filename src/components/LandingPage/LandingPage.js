@@ -21,6 +21,9 @@ const LandingPage = () => {
   return (
     <div className={landingPage} id="home">
        <div className={landingContents}>
+        <div class={landingpageimg}>
+
+        </div>
         <div>
           <h1 className={HtextClass}>
             Hi{" "}

@@ -2,7 +2,7 @@ export const Projects = [
     {
         img: require('../Projects/img/img9.png'),
         title: "GetLinked Hackathon Project",
-        description: "Get Post Contact and Register Info to a Backend Data base using Fetch",
+        description: "GetLinked Hackathon responsive website with high resolution images that store data of people who register for the Hackathon in a Backend server",
         link: "https://mitchyugangetlinkedwebsite.netlify.app/",
         repo: "https://github.com/MITCHYUGAN/getLinked-WebApp"
     },
