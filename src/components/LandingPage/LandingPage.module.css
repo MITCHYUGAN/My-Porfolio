@@ -14,7 +14,6 @@ body{
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
-    /* background: linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(./Img/background.svg); */
     color: white;
 }
 
@@ -61,11 +60,10 @@ body{
 }
 
 .wave{
-    /* animation: wave 0.5s infinite; */
     display: inline-block;
     transform-origin: 70% 70%; 
-    animation-name: wave;  /* Refers to the name of your @keyframes element below */
-    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-name: wave;  
+    animation-duration: 2.5s; 
     animation-iteration-count: infinite; 
 }
 
