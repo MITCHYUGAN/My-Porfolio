@@ -89,9 +89,9 @@
    color: white;
 }
 
-.social a svg:hover{
+/* .social a svg:hover{
     opacity: 80%;
-}
+} */
 
 .ToggleNavBtn{
     cursor: pointer;

@@ -1,10 +1,17 @@
 export const Projects = [
     {
-        img: require('../Projects/img/img1.png'),
-        title: "Opspad Official Website",
-        description: "A real-world server management tool that simplifies the entire process. With our all-in-one solution, you can set up your server environment in less than 100 seconds. It offers real-time log retrieval, convenient password management for server tools, and mobile notifications to keep you informed about your server's status. Experience streamlined server management with our efficient and user-friendly platform, empowering you to focus on business growth and success.",
-        link: "https://opspad.dev/",
-        repo: "https://github.com/workshopapps/devopsnotepad.desktop/tree/dev/frontend_website"
+        img: require('../Projects/img/img9.png'),
+        title: "GetLinked Hackathon Project",
+        description: "Get Post Contact and Register Info to a Backend Data base using Fetch",
+        link: "https://mitchyugangetlinkedwebsite.netlify.app/",
+        repo: "https://github.com/MITCHYUGAN/getLinked-WebApp"
+    },
+    {
+        img: require('../Projects/img/img6.png'),
+        title: "Apple Website Clone",
+        description: "A clone of the Apple website's homepage and MacBook page from 2020. This project includes the integration of a night mode feature, enhancing the user experience. developed using HTML, CSS, and JavaScript, ensuring a faithful reproduction of the original design. With meticulous attention to detail, the website delivers an immersive and visually appealing experience for users, resembling the renowned Apple website of 2020",
+        link: "https://mytchapplewebsiteclone.netlify.app/",
+        repo: "https://github.com/MITCHYUGAN/Apple-Website-Clone"
     },
     {
         img: require('../Projects/img/img8.png'),
@@ -25,13 +32,6 @@ export const Projects = [
         title: "Meta Bnb Website",
         description: "I successfully completed a responsive NFT website project as part of my HNG Internship. This project was developed using React, CSS, and other relevant technologies. The website offers a seamless and user-friendly experience for showcasing NTF's. With a focus on responsiveness, the website adapts smoothly to different devices, ensuring optimal user engagement.",
         link: "hhttps://hngtask-metabnbnft.netlify.app/"
-    },
-    {
-        img: require('../Projects/img/img6.png'),
-        title: "Apple Website Clone",
-        description: "A clone of the Apple website's homepage and MacBook page from 2020. This project includes the integration of a night mode feature, enhancing the user experience. developed using HTML, CSS, and JavaScript, ensuring a faithful reproduction of the original design. With meticulous attention to detail, the website delivers an immersive and visually appealing experience for users, resembling the renowned Apple website of 2020",
-        link: "https://mytchapplewebsiteclone.netlify.app/",
-        repo: "https://github.com/MITCHYUGAN/Apple-Website-Clone"
     },
     {
         img: require('../Projects/img/img7.png'),

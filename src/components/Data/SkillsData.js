@@ -18,13 +18,16 @@ export const Skills = [
         skills: "Responsive Design"
     },
     {
-        skills: "JavaScript"
+        skills: "Javascript"
     },
     {
         skills: "JQuery"
     },
     {
         skills: "React"
+    },
+    {
+        skills: "Typescript"
     },
     {
         skills: "Git"
